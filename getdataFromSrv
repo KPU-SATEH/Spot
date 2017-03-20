@@ -1,0 +1,53 @@
+<?php
+$servername = "ydpdp.cdv1b1jernsc.us-west-2.rds.amazonaws.com";
+
+$username = "spot";
+
+$password = "spot1234";
+
+
+// Create connection
+
+$conn = mysqli_connect($servername, $username, $password,"yourdrivingpattern");
+
+
+// Check connection
+
+if (!$conn) {
+
+die("Connection failed: " . mysqli_connect_error());
+
+}
+
+mysqli_set_charset($conn,"utf8");
+
+$UserNum = $_POST["UserNum"];
+$DateLength = $_POST["DateLength"];
+
+//전체 사용자 평균값 반납
+echo mysqli_query($conn, "select avg(HardAccNum)/avg(DrivingDistance) from DrivingData");
+echo "\n";
+echo mysqli_query($conn, "select avg(HardStopNum)/avg(DrivingDistance) from DrivingData");
+echo "\n";
+echo mysqli_query($conn, "select avg(QuickStartNum)/avg(DrivingDistance) from DrivingData");
+echo "\n";
+echo mysqli_query($conn, "select avg(EchoDriving) from DrivingData");
+echo "\n";
+echo mysqli_query($conn, "select avg(RecklessDriving) from DrivingData");
+echo "\n";
+echo mysqli_query($conn, "select avg(DozeDriving) from DrivingData");
+echo "\n";
+
+//사용자 데이터 반납
+$res = mysqli_query($conn, "select * from DrivingData where UserNum = $UserNum");
+
+$result = array();
+while($row = mysqli_fetch_array($res)){
+array_push($result, array('HardAccNum'=>$row[6], 'HardStopNum'=>$row[7], 'QuickStartNum'=>$row[8], 'EchoDriving'=>$row[9], 'RecklessDriving'=>$row[10], 'DozeDriving'=>$row[11]));
+}
+echo json_encode(array("result"=>$result));
+
+
+mysqli_close($conn);
+
+?>
