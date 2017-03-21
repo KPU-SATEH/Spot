@@ -25,17 +25,29 @@ $UserNum = $_POST["UserNum"];
 $DateLength = $_POST["DateLength"];
 
 //전체 사용자 평균값 반납
-echo mysqli_query($conn, "select avg(HardAccNum)/avg(DrivingDistance) from DrivingData");
+$avg = mysqli_query($conn, "select avg(HardAccNum)/avg(DrivingDistance) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
-echo mysqli_query($conn, "select avg(HardStopNum)/avg(DrivingDistance) from DrivingData");
+$avg = mysqli_query($conn, "select avg(HardStopNum)/avg(DrivingDistance) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
-echo mysqli_query($conn, "select avg(QuickStartNum)/avg(DrivingDistance) from DrivingData");
+$avg = mysqli_query($conn, "select avg(QuickStartNum)/avg(DrivingDistance) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
-echo mysqli_query($conn, "select avg(EchoDriving) from DrivingData");
+$avg = mysqli_query($conn, "select avg(EchoDriving) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
-echo mysqli_query($conn, "select avg(RecklessDriving) from DrivingData");
+$avg = mysqli_query($conn, "select avg(RecklessDriving) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
-echo mysqli_query($conn, "select avg(DozeDriving) from DrivingData");
+$avg = mysqli_query($conn, "select avg(DozeDriving) from DrivingData");
+$avgr = mysqli_fetch_array($avg);
+echo $avgr[0];
 echo "\n";
 
 //사용자 데이터 반납
