@@ -1,0 +1,7 @@
+#Thu Mar 23 18:50:13 KST 2017
+base.0=D\:\\Gra\\YourDrivingIntro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8463c5e6bcc171835e8873b393985ca0ef94570c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Gra\\YourDrivingIntro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_123b6853887db7be6ef87c3b546248023fd5b044\\classes.dex
+base.1=D\:\\Gra\\YourDrivingIntro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_123b6853887db7be6ef87c3b546248023fd5b044
+file.0=D\:\\Gra\\YourDrivingIntro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8463c5e6bcc171835e8873b393985ca0ef94570c\\classes.dex

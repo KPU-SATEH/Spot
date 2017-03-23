@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Gra\YourDrivingIntro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="557d2438936865c5041db08576c495965b08edd1">
+        <dex dex="D:\Gra\YourDrivingIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8463c5e6bcc171835e8873b393985ca0ef94570c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Gra\YourDrivingIntro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Gra\YourDrivingIntro\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_123b6853887db7be6ef87c3b546248023fd5b044\classes.dex" />
+    </item>
+
+</items>
