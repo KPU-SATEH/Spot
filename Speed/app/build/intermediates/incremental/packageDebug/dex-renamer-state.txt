@@ -1,0 +1,7 @@
+#Sun Mar 26 18:42:00 KST 2017
+base.0=D\:\\Gra\\Speed\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c2cae7aa9a85e2f7e5d535181095092e1958ea60
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Gra\\Speed\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_abf140c7cfa2e7999c4f0c4673da592dda73dd94\\classes.dex
+base.1=D\:\\Gra\\Speed\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_abf140c7cfa2e7999c4f0c4673da592dda73dd94
+file.0=D\:\\Gra\\Speed\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c2cae7aa9a85e2f7e5d535181095092e1958ea60\\classes.dex
