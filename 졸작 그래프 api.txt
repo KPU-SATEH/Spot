@@ -1,0 +1,49 @@
+안드로이드 그래프 라이브러리 
+1. 
+안드로이드 그래프 라이브러리 - HzGrapher
+ex) https://github.com/handstudio/HzGrapher
+특징
+- 오픈소스, 아이콘,배경화면, 색 등의 수정이 쉽다.
+- 자동으로 layout에 맞게 그려집니다.
+- 그리기 애니메이션 적용이 가능
+
+지원 그래프
+- 선 그래프
+- 선 비교그래프
+- 곡선 그래프
+- 곡선 비교그래프
+- 방사형 그래프
+- 원 그래프
+- 도넛 그래프
+- 버블 그래프
+- 점 그래프
+
+2.
+achartengine 
+http://code.google.com/p/achartengine/
+현재도 계속 개발중입니다.
+종류
+line chart 
+area chart 
+scatter chart 
+time chart 
+bar chart 
+pie chart 
+bubble chart 
+doughnut chart 
+
+3.
+chartdroid 
+http://code.google.com/p/chartdroid/
+현재도 계속 개발중입니다.
+
+4
+구글 차트
+http://answerofgod.tistory.com/entry/google-chart%EA%B5%AC%EA%B8%80-%EC%B0%A8%ED%8A%B8%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B7%B8%EB%9E%98%ED%94%84
+웹뷰를 통해 구글차트 그리기.
+
+http://www.truiton.com/2013/04/android-tutorial-using-google-chart-tools-with-svg-and-image-api/
+구현 
+5.
+MPAndroidChart
+http://nashorn.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%9A%A9-%EC%B0%A8%ED%8A%B8-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC

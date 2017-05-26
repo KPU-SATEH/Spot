@@ -1,0 +1,6 @@
+http://ande226.tistory.com/136 
+버튼 1개 퍼미션 주는 법.
+http://pluu.github.io/blog/android/2015/08/19/android-RuntimePermissions/
+퍼미션
+http://mainia.tistory.com/550
+탭뷰 
